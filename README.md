@@ -1,20 +1,4 @@
-# DevSearch
-Sourcode and Resources for Django 2021 Course
-
-See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
-
-
-# Installation
-* 1 - clone repo https://github.com/divanov11/Django-2021
-* 2 - create a virtual environment and activate
-*  - pip install virtualenv
-*  - virtualenv envname
-*  - envname\scripts\activate
-* 3 - cd into project "cd django-2021"
-* 4 - pip install -r requirements.txt
-* 5 - python manage.py runserver
-
-
+# Django-App
 
 # Features
 * Share Projects
@@ -22,20 +6,31 @@ See the full course here: https://dennisivy.teachable.com/p/django-beginners-cou
 * Rate others work
 * Search other developers
 
-# Course Overview
-* Basic Djagno Overview
-* Database Design and Models
-* Static Files
-* User Registration & Authenticaiton
-* Search
-* Pagination
-* Building an API with Django REST Framework (DRF)
-* Deployment
 
 # Tech Stack
 * Django
 * Postgres
 * Django REST Framework
+
+### How to use
+- Fork this repo
+- Clone the forked repo
+- Make virtual environment ``virtualenv env``
+- Go to ``cd env/scripts``
+- Activate the environment using ``activate``
+- Come Back to base directory ``cd../..``
+- Install requirements.txt ``pip install -r requirements.txt``
+- Run ``python manage.py migrate``
+- If you change something in any model use ``python manage.py makemigrations``
+- Make a superadmin to login into the dashboard ``python manage.py createsuperuser`` it will ask for ``email`` and ``password``
+- To start the server use ``python manage.py runserver``
+
+
+## How to delete sql data
+- `rm -rf db.sqlite3`
+- `python manage.py migrate`
+- `python manage.py createsuperuser`
+
 
 # Home Page
 <img src="./resources/images/Devsearch Home.jpg">  
