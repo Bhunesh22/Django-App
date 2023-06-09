@@ -1,18 +1,18 @@
 # Django-App
 
-# Features
+## Features
 * Share Projects
 * Message other developers
 * Rate others work
 * Search other developers
 
 
-# Tech Stack
+## Tech Stack
 * Django
 * Postgres
 * Django REST Framework
 
-### How to use
+## How to use
 - Fork this repo
 - Clone the forked repo
 - Make virtual environment ``virtualenv env``
